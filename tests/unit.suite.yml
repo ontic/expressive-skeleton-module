@@ -3,6 +3,6 @@
 
 actor: UnitTester
 modules:
-    enabled:
-        - Asserts
-        - \Helper\Unit
+  enabled:
+  - Asserts
+  - \Helper\Unit

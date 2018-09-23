@@ -3,5 +3,5 @@
 
 actor: FunctionalTester
 modules:
-    enabled:
-        - \Helper\Functional
+  enabled:
+  - \Helper\Functional
