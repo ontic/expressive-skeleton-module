@@ -49,7 +49,7 @@
         ],
         "cs-check": "phpcs",
         "cs-fix": "phpcbf",
-        "test": "codecept run unit",
-        "test-coverage": "codecept run unit --coverage --coverage-xml"
+        "test": "codecept run",
+        "test-coverage": "codecept run --coverage-xml"
     }
 }
