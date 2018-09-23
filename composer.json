@@ -1,0 +1,55 @@
+{
+    "name": "ontic/expressive-skeleton-module",
+    "description": "This module provides a quick way of creating new Zend Expressive modules.",
+    "homepage": "https://github.com/ontic/expressive-skeleton-module",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "keywords": [
+        "ontic",
+        "zend",
+        "expressive",
+        "skeleton",
+        "module"
+    ],
+    "support": {
+        "source": "https://github.com/ontic/expressive-skeleton-module",
+        "issues": "https://github.com/ontic/expressive-skeleton-module/issues",
+        "rss": "https://github.com/ontic/expressive-skeleton-module/releases.atom"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.4",
+        "zendframework/zend-coding-standard": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ontic\\Expressive\\Skeleton\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OnticTest\\Expressive\\Skeleton\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "zf": {
+            "config-provider": "Ontic\\Expressive\\Skeleton\\ConfigProvider"
+        }
+    },
+    "scripts": {
+        "check": [
+            "@cs-check",
+            "@test"
+        ],
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "codecept run unit",
+        "test-coverage": "codecept run unit --coverage --coverage-xml"
+    }
+}
