@@ -1,6 +1,0 @@
-# Copyright (c) Ontic. (http://www.ontic.com.au). All rights reserved.
-# See the COPYING file bundled with this package for license details.
-
-service_name: travis-ci
-coverage_clover: tests/_output/coverage.xml
-json_path: tests/_output/coveralls.json

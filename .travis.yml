@@ -12,7 +12,7 @@ cache:
 env:
   global:
   - COMPOSER_ARGS="--no-interaction"
-  - COVERAGE_DEPS="php-coveralls/php-coveralls"
+  - COVERAGE_DEPS="codacy/coverage"
 
 matrix:
   include:
@@ -52,7 +52,7 @@ script:
   - if [[ $CS_CHECK == 'true' ]]; then composer cs-check ; fi
 
 after_script:
-  - if [[ $TEST_COVERAGE == 'true' ]]; then vendor/bin/php-coveralls -v ; fi
+  - if [[ $TEST_COVERAGE == 'true' ]]; then vendor/bin/codacycoverage clover tests/_output/coverage.xml ; fi
 
 notifications:
   email: false
