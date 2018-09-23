@@ -3,17 +3,17 @@
 
 actor_suffix: Tester
 paths:
-    tests: tests
-    output: tests/_output
-    data: tests/_data
-    support: tests/_support
-    envs: tests/_envs
+  tests: tests
+  output: tests/_output
+  data: tests/_data
+  support: tests/_support
+  envs: tests/_envs
 settings:
-    colours: true
+  colours: true
 extensions:
-    enabled:
-        - Codeception\Extension\RunFailed
+  enabled:
+    - Codeception\Extension\RunFailed
 coverage:
-    enabled: true
-    include:
-        - src/*
+  enabled: true
+  include:
+    - src/*
