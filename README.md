@@ -2,7 +2,7 @@
 
 | Branch             | Build               | Quality             | Coverage             | Release              |
 | :----------------- | :------------------ | :------------------ | :------------------- | :------------------- |
-| **master**         | [![Build](https://img.shields.io/travis/ontic/expressive-skeleton-module/master.svg)](https://travis-ci.org/ontic/expressive-skeleton-module) | [![Quality](https://img.shields.io/codacy/grade/741e4f629468436780290e447aa2efa4/master.svg)](https://www.codacy.com/app/ontic/expressive-skeleton-module) | [![Coverage](https://img.shields.io/codacy/coverage/741e4f629468436780290e447aa2efa4/master.svg)](https://www.codacy.com/app/ontic/zexpressive-skeleton-module) | [![Release](https://img.shields.io/packagist/v/ontic/expressive-skeleton-module.svg)](https://packagist.org/packages/ontic/expressive-skeleton-module) | 
+| **master**         | [![Build](https://img.shields.io/travis/ontic/expressive-skeleton-module/master.svg)](https://travis-ci.org/ontic/expressive-skeleton-module) | [![Quality](https://img.shields.io/codacy/grade/741e4f629468436780290e447aa2efa4/master.svg)](https://app.codacy.com/project/ontic/expressive-skeleton-module/dashboard) | [![Coverage](https://img.shields.io/codacy/coverage/741e4f629468436780290e447aa2efa4/master.svg)](https://app.codacy.com/project/ontic/expressive-skeleton-module/dashboard) | [![Release](https://img.shields.io/packagist/v/ontic/expressive-skeleton-module.svg)](https://packagist.org/packages/ontic/expressive-skeleton-module) | 
 ## Introduction
 
 This module provides a quick way of creating new Zend Expressive modules.
